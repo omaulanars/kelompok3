@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #27ae60;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #2ecc71;
+}
+
+section h1 {
+  margin-top: 0;
+  color: #2ecc71;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+.berita {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.berita img {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.berita h2 {
+  margin-top: 0;
+  color: #2ecc71;
+}
+
+.berita p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
